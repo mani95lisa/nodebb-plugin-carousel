@@ -8,5 +8,5 @@ NodeBB plugin for beautiful responsive carousel image viewer
 
 ## Usage
 
-    add [carousel] in post will enable this plugin
-    add [carousel`{"items":3,"lazyLoad":true}`] to config [Detail](http://owlgraphic.com/owlcarousel/#customizing).
+add [carousel] in post will enable this plugin
+add [carousel`{"items":3,"lazyLoad":true}`] to config [Detail](http://owlgraphic.com/owlcarousel/#customizing).
