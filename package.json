@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-carousel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeBB plugin for beautiful responsive carousel image viewer",
   "main": "index.js",
   "scripts": {
