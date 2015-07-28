@@ -2,12 +2,6 @@
  * 	Core Owl Carousel CSS File
  *	v1.3.3
  */
-.carousel-img {
-    margin: 3px;
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
