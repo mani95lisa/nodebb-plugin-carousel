@@ -16,9 +16,11 @@
 			postContent = postContent.replace(re, '<div class="item">$2class="lazyOwl" style="box-shadow:1px 1px 3px rgba(0,0,0,0.2)" data-src$3</div>');
 			re = /<div class="item">.*?\/div>/mg;
 			arr = postContent.match(re);
-			postContent = postContent.replace(re, '');
-			postContent = postContent.replace(/\[carousel(.*)]/mg, '<div class="carousel" config="' + config + '">'+arr.join('')+'</div>');
-			data.postData.content = postContent;
+            if(arr && arr.length){
+                postContent = postContent.replace(re, '');
+                postContent = postContent.replace(/\[carousel(.*)]/mg, '<div class="carousel" config="' + config + '">'+arr.join('')+'</div>');
+                data.postData.content = postContent;
+            }			
 		}
 
 		callback(null, data);
