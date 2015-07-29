@@ -2,6 +2,8 @@
 
 NodeBB plugin for beautiful responsive carousel image viewer
 
+[Demo](http://swift.tf/topic/8/target)
+
 ## Installation
 
     npm install nodebb-plugin-carousel
